@@ -25,18 +25,15 @@ import Dashboard from './Dashboard';
 
 const App = () => {
 
-
   const { productitems } = data;
   const [cartitems, setCartItems] = useState([]);
   // const { user } = useContext(UserContext);
   // const History = useHistory();
-
   const handleAddProduct = (product) => {
   //  console.log(product);
      const ProductExist = cartitems.find((item) => item.id === product.id)
     //  console.log(ProductExist);
     //  setCartItems(ProductExist);
-
     if (ProductExist) {
       setCartItems(
       
