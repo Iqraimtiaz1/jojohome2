@@ -5,11 +5,7 @@ import  "slick-carousel/slick/slick-theme.css";
 import image1 from '../images/pillow.jpeg';
 import image2 from '../images/pillow4.jpeg';
 import image3 from '../images/h3.jpeg';
-
 import './css/Sliderimage.scss';
-
-
-
 
  function SliderImage() {
 
