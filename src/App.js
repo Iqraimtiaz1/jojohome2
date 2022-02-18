@@ -77,9 +77,9 @@ const App = () => {
           <Route exact path='/Cart' component={Cart} />
           <Route exact path='/Pillow_Covers' component={Pillow_Covers} />
           <Route exact path='/Sofa_Covers' component={Sofa_Covers} />
-          <Route exact path='/Header' element={Header} />
-          <Route path="/Login" element={Login } ></Route>
-          <Route path="/Sign_Up" element={Sign_Up}/>
+          <Route exact path='/Header' component={Header} />
+          <Route path="/Login" component={Login} ></Route>
+          <Route path="/Sign_Up" component={Sign_Up}/>
           <Router>
             <Route exact path='/Bed_Sheets' >
               <PagesR productitems={productitems}
