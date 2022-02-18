@@ -15,7 +15,7 @@ function Product() {
             <div className='product-container'>
 
             <Box image={image1} name="Floral Bedshett" TotalItem="200 Items" Link={'/Bed_Sheets'}/>
-            <Box image={image2} name="Bedseets" TotalItem="500 Items"  Link={'/Bed_Sheets'}/>
+            <Box image={image2} name="Bedseets" TotalItem="500 Items"  Link={'/Matress_Protectors'}/>
             <Box image={image3} name="Bedseets" TotalItem="500 Items"  Link={'/Bed_Sheets'}/>
             <Box image={image4} name="Bedseets" TotalItem="500 Items"  Link={'/Bed_Sheets'}/>
             

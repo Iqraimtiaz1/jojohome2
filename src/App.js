@@ -17,6 +17,7 @@ import './index.css';
 import data from './components/Back/Data/Data';
 import Cart from './components/Cart';
 import Dashboard from './Dashboard';
+import Matress_Protectors from './components/Matress_Protectors';
 // import { useContext } from 'react'
 // import { BrowserRouter } from 'react-router-dom';
 // import { useHistory } from 'react-router-dom';
@@ -77,6 +78,7 @@ const App = () => {
           <Route exact path='/Cart' component={Cart} />
           <Route exact path='/Pillow_Covers' component={Pillow_Covers} />
           <Route exact path='/Sofa_Covers' component={Sofa_Covers} />
+          <Route exact path='/Sofa_Covers' component={Matress_Protectors} />
           <Route exact path='/Header' component={Header} />
           <Route path="/Login" component={Login} ></Route>
           <Route path="/Sign_Up" component={Sign_Up}/>
