@@ -18,6 +18,7 @@ import data from './components/Back/Data/Data';
 import Cart from './components/Cart';
 import Dashboard from './Dashboard';
 import Matress_Protectors from './components/Matress_Protectors';
+
 // import { useContext } from 'react'
 // import { BrowserRouter } from 'react-router-dom';
 // import { useHistory } from 'react-router-dom';
@@ -27,6 +28,7 @@ import Matress_Protectors from './components/Matress_Protectors';
 const App = () => {
 
   const { productitems } = data;
+  
   const [cartitems, setCartItems] = useState([]);
   // const { user } = useContext(UserContext);
   // const History = useHistory();
@@ -90,6 +92,7 @@ const App = () => {
                 handleRemoveProduct={handleRemoveProduct}
               />
             </Route>
+         
           </Router>
 
         </Switch>

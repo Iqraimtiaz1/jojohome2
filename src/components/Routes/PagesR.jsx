@@ -6,6 +6,7 @@ import Cart from '../Cart';
 const PagesR = (props) => {
    const {cartitems} =props;
    const {productitems}=props;
+ 
    const{handleAddProduct}=props;
    const {handleRemoveProduct}=props;
   return (
@@ -16,6 +17,7 @@ const PagesR = (props) => {
              <Bed_Sheets productitems={productitems}
                handleAddProduct={handleAddProduct}/>
              </Route>
+             
              <Route path='/cart' exact>
                 <Cart 
                 cartitems={cartitems} 
